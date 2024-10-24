@@ -10,6 +10,15 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
+# name: Ubuntu
+# on: [push]
+# jobs:
+#   Ubuntu:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Setup Debug Session
+#       uses: csexton/debugger-action@master
+
 
 name: OpenWrt Builder k2
 
@@ -36,6 +45,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+
+    - name: Setup Debug Session
+      uses: csexton/debugger-action@master
 
     - name: Initialization environment
       env:
