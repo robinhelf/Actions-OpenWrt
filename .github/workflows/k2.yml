@@ -45,7 +45,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
-
+      
+      # 开启ssh
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
 
