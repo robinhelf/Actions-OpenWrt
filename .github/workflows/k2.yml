@@ -47,8 +47,8 @@ jobs:
       uses: actions/checkout@main
       
       # 开启ssh
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
+    - name: SSH connection to Actions
+      uses: P3TERX/debugger-action@master
 
     - name: Initialization environment
       env:
