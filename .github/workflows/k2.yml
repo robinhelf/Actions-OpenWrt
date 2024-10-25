@@ -46,10 +46,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
       
-      # 开启ssh
-    # - name: Setup Debug Session
-    #   uses: csexton/debugger-action@master
-
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
@@ -91,6 +87,10 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
+
+      # 开启ssh
+    # - name: Setup Debug Session
+    #   uses: csexton/debugger-action@master
 
     - name: Download package
       id: package
