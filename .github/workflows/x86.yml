@@ -80,8 +80,8 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
     # 开启ssh
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
+    # - name: Setup Debug Session
+    #   uses: csexton/debugger-action@master
 
     - name: Download package
       id: package
