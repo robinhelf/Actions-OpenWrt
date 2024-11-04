@@ -87,9 +87,9 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
-    # 开启ssh
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
+    # # 开启ssh
+    # - name: Setup Debug Session
+    #   uses: csexton/debugger-action@master
 
     - name: Compile the firmware
       id: compile
