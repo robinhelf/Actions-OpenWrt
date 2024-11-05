@@ -11,7 +11,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder x86
+name: OpenWrt Builder x86-lede
 
 on:
   repository_dispatch:
