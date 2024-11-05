@@ -20,7 +20,7 @@
 #       uses: csexton/debugger-action@master
 
 
-name: OpenWrt Builder k2
+name: OpenWrt Builder k2-openwrt-23.05
 
 on:
   repository_dispatch:
