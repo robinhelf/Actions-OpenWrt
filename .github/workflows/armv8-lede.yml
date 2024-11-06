@@ -12,7 +12,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder arm64-lede
+name: OpenWrt Builder armv8-lede
 
 on:
   repository_dispatch:
