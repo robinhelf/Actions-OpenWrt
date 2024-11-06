@@ -12,7 +12,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder arm64-openwrt
+name: OpenWrt Builder armv8-openwrt
 
 on:
   repository_dispatch:
