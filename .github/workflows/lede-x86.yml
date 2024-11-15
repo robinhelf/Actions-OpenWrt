@@ -13,7 +13,7 @@
 name: lede-x86
 
 on:
-  # repository_dispatch:
+  repository_dispatch:
   workflow_dispatch:
 
 env:
