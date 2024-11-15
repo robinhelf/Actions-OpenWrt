@@ -12,9 +12,9 @@
 
 name: lede-x86
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
+# on:
+#   repository_dispatch:
+#   workflow_dispatch:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
