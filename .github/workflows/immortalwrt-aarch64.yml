@@ -130,7 +130,7 @@ jobs:
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
         # 动态提取当前yml文件名（去除路径，仅保留文件名）
-        WORKFLOW_FILE=$(basename $GITHUB_WORKFLOW)
+        WORKFLOW_FILE=$(basename $GITHUB_WORKFLOW .yml)
         echo "release_tag=${WORKFLOW_FILE}-$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         touch release.txt
         [ ${UPLOAD_GOFILE} = true && ${{ steps.gofile.outputs.url }} ] && echo "🔗 [GoFile](${{ steps.gofile.outputs.url }})" >> release.txt
