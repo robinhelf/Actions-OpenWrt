@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: fanchmwrt-aarch64.yml
+name: fanchmwrt-arm64
 
 on:
   repository_dispatch:
