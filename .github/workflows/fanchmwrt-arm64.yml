@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/fanchmwrt/fanchmwrt
-  REPO_BRANCH: master #分支
+  REPO_BRANCH: fanchmwrt-25.12.6 #分支
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: arm64/.config
   DIY_P1_SH: arm64/diy-part1.sh
